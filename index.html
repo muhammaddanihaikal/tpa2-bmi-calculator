@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas TPA2 | BMI Calclator</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <section id="bmi">
+        <h1>BMI Calculator</h1>
+        <h3>Masukkan Berat Badan (KG) dan Tinggi (CM) Anda</h3>
+
+        <form>
+          <label for="berat">Berat (kg)</label>
+          <input type="number" id="berat" name="berat" />
+
+          <label for="berat">Tinggi (cm)</label>
+          <input type="number" id="tinggi" name="tinggi" />
+
+          <button type="button" onclick="hitungBMI()">Hitung BMI</button>
+
+          <p>BMI anda : <span id="hasil"></span></p>
+          <p>Kategori BMI anda : <span id="kategori"></span></p>
+        </form>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
